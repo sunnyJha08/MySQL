@@ -1,4 +1,4 @@
-# 01_Creating a Table
+# Creating a Table
 
 This document explains the SQL code used to create a basic table called `users` in a relational database and how to query its contents.
 
@@ -20,9 +20,11 @@ CREATE TABLE users (
     created_id TIMESTAMP DEFAULT CURRENT_TIMESTAMP -- 'created_id' automatically stores the current timestamp when a new row is inserted
 );
 -- This query creates the structure of the 'users' table with various columns and constraints.
+```
 
-**Viewing a Table**
+# Viewing a Table
 
+```sql
 SELECT * FROM users;
 -- This query retrieves all columns and all rows from the 'users' table.
 -- It's useful for checking the current data stored in the table.
