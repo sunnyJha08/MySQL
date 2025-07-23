@@ -21,7 +21,7 @@ CREATE TABLE users (
 );
 -- This query creates the structure of the 'users' table with various columns and constraints.
 
-# Viewing a Table
+**Viewing a Table**
 
 SELECT * FROM users;
 -- This query retrieves all columns and all rows from the 'users' table.
