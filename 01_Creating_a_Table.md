@@ -28,4 +28,13 @@ CREATE TABLE users (
 SELECT * FROM users;
 -- This query retrieves all columns and all rows from the 'users' table.
 -- It's useful for checking the current data stored in the table.
+```
+
+# Drop the Database
+
+```sql
+DROP DATABASE users;
+-- You can delete the entire database (and all its tables) using:
+-- "Be careful — this will delete everything in that database."
+```
 
